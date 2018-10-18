@@ -9,3 +9,8 @@ body {
 header {
   background-color: #ffe500;
 }
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
