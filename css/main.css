@@ -1,6 +1,12 @@
 html {
-  font: normal 100%/1.5 Georgia, serif;
-}
+    box-sizing: border-box;
+    font: normal 100%/1.5 Georgia, serif;
+    line-height: 1.5;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
 
 body {
   margin: 0;
@@ -8,14 +14,38 @@ body {
 
 header {
   background-color: #ffe500;
+  padding: 1em 0;
 }
 
 h1 {
   margin: 0;
   text-align: center;
+  color: #b20953;
+  font-family: "Sigmar One";
+  font-size: 3rem;
 }
 
 .nav {
   margin: 0;
+  padding: 0;
   list-style-type: none;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  color: #fff;
+  display: inline-block;
+  padding: .3em .5em;
+  background-color: #b2a212;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.nav a:hover {
+  background-color: #b20953;
 }
