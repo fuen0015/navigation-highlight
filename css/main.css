@@ -46,8 +46,12 @@ footer {
   text-align: center;
   font-family: Georgia;
   font-size: .75rem;
-
 }
+
+footer small {
+  font-size: .75rem;
+}
+
 .nav {
   margin: 0;
   padding: 0;
